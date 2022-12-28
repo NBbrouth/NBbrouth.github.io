@@ -4,6 +4,29 @@
     text-decoration: none;
 }
 
+
+HTML {
+OVERFLOW-Y: auto; OVERFLOW-X: auto
+}
+
+html{overflow-x : hidden ; height : 100% ; margin : 0 ; padding : 0 ; }
+body{ height : 99% ; margin : 0 ;  overflow-x : hidden ; } 
+
+
+
+<iframe scrolling="yes"> 
+
+
+
+
+
+html { overflow: scroll; }
+
+
+html { overflow-x: scroll; }
+
+
+<boby scroll="auto">   
 html,
 body {
     height: 100%;
