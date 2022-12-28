@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+header,
+footer {
+    min-height: 157px;
+   width: 100%;
+}
+
+/* 头部 */
+header {
+    background-image: url(title.png);
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+}
+
+
+header p a{
+    float: right;
+    right: 0px;
+    top: 30px;
+    font-size: 25px;
+    border: 1px  black;
+}
+
+/* 中间 */
+/* 导航栏 */
+section {
+
+    min-height: 1080px;
+    width: 100%;
+    background-image: url(lvshihan.WEBP);
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+section nav span {
+    display: inline-table;
+    width: 0px;
+    height: 0px;
+    border: 10px solid transparent;
+    border-top: 10px solid black;
+    position: absolute;
+    top: 12.5px;
+    left: calc(100% -1px);
+
+}
+
+section nav li:hover span {
+    display: inline-table;
+    width: 0px;
+    height: 0px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid black;
+    position: absolute;
+    top: -2.5px;
+}
+
+section nav>ul>li {
+
+    float: left;
+}
+
+section nav ul li {
+    background-color: rgb(14, 122, 230);
+    text-align: center;
+    line-height: 30px;
+    width: calc(100% / 7 - 2px);
+    height: 30px;
+    position: relative;
+    /* margin-right: 5px ; */
+    border: 1px solid black;
+}
+
+section nav a {
+
+    color: white;
+}
+
+section nav li>ul {
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    width: 100%;
+    display: none;
+}
+
+section nav ul li:hover {
+
+    background-color: rgb(240, 220, 204);
+}
+
+section>nav>ul>li:hover ul {
+
+    display: block;
+}
+
+section nav ul li ul li {
+    width: 100%;
+}
+
+section>nav>ul::after {
+    content: "";
+    clear: both;
+    display: block;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+/* 广告 */
+section aside {
+    background-image: url(head-img2.png);
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    right: 0px;
+    bottom: 115px;
+}
+section aside a{
+    color: rgb(8, 212, 103);
+    font-size: 30px;
+    line-height: 200px;
+    text-align: center;
+    text-decoration: underline;
+   position: relative;
+   left: 70px;
+}
+/* 尾 */
+footer p{
+    font-size: 18px;
+    color: rgb(10, 93, 195);
+    
+}
+footer div{
+    width: 110px;
+    height: 115px;
+    background: #ccc;
+    float: left;
+    margin: 5px;
+    background-image: url(jinglingtu.png);
+}
+footer .box1{
+    background-position: -185px -116px;
+}
+    footer .box2{
+        background-position: -330px -116px;
+    }
+    footer .box3{
+        background-position: -480px -116px;
+    }
+    footer .box4{
+        background-position: -635px -116px;
+    }
+    footer .box5{
+        background-position: -788px -116px;
+    }
+    footer .box6{
+        background-position: -926px -116px;
+    }
+    footer .box7{
+        background-position: -330px -271px;
+    }
+    footer .box8{
+        background-position: -480px -271px;
+    }
+    footer .box9{
+        background-position: -635px -271px;
+    }
+    footer .box10{
+        background-position: -788px -271px;
+    }
+    footer .box11{
+        background-position: -926px -271px;
+    }
+
+    footer .box12{
+        background-position: -185px -271px;
+    }
